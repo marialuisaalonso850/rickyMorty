@@ -1,0 +1,86 @@
+
+
+h1{
+    font-size: 25px;
+}
+
+.titule{
+   
+    font: bold 80px/1 arial;
+    text-transform: uppercase;
+    color: #21c61e;
+    text-shadow: 0  2px  0   #158b4e,
+                 0  4px  0   #137c24,
+                 0  6px  0   #116e39, 
+                 0  8px  0   #0e5f41, 
+                 0 10px  0   rgb(12, 80, 38),
+                 0 12px  0   #0a4119,
+                3px 8px 15px rgba(0,0,0,0.1),
+                3px 8px  5px rgba(0,0,0,0.3);
+}
+/* Body styles */
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    background-color: #1E232E;
+  }
+  
+  /* Main container styles */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #151F30; /* Cambiamos el fondo del main */
+  }
+  
+  /* Title styles */
+  .titule {
+    color: #333;
+  }
+  
+  /* Character container styles */
+  .character {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Varias columnas */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #363432;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #90A19D;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .card h1 {
+    font-size: 10px;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+    margin: 10px 0;
+    color: white;
+  }
+  
+  /* Colors for status */
+  .status-alive {
+    color: #00b300;
+  }
+  
+  .status-dead {
+    color: #e60000;
+  }
+  
+  .status-unknown {
+    color: #666;
+  }
+  
